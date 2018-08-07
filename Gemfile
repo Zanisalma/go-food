@@ -40,6 +40,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', ">= 3.4.4"
   gem 'factory_girl_rails', "~> 4.4.1"
+  gem 'rails-controller-testing'
 end
 
 group :development do
@@ -55,7 +56,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
- gem 'faker', "~> 1.4.3"
+ gem 'faker'
  gem 'capybara', "~> 2.4.3"
  gem 'database_cleaner', "~> 1.3.0"
  gem 'launchy', "~> 2.4.2"
